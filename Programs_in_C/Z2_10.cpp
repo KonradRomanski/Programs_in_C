@@ -1,16 +1,7 @@
 ﻿#include <stdio.h>
 #include <math.h>
 
-/*
-Funkcja vchar usuwa z bufora klawiatury znaki rozdzielające (CR, LF, SP, TAB, ...)
-i przekazuje jako wynik kod pierwszego napotkanego znaku widocznego.
-*/
-char vchar()
-{
-	char cc;
-	while ((cc = getchar()) <= ' ');
-	return cc;
-}
+char vchar();
 
 int binary(unsigned long long data, bool which)
 {

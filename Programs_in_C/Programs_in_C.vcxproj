@@ -163,6 +163,9 @@
     <ClCompile Include="Z5_12.cpp" />
     <ClCompile Include="Z5_5.cpp" />
     <ClCompile Include="Z6_9.cpp" />
+    <ClCompile Include="Z7_1.cpp" />
+    <ClCompile Include="Z7_2.cpp" />
+    <ClCompile Include="Z7_5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
