@@ -28,6 +28,6 @@ This repository contains programs made in **C language**
 [Z7_1.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_1.cpp)
 
 ### Additional info
-Exercises taken from website [Learning materials](http://www.cs.put.poznan.pl/jkniat/MatDydakt.html)
+Exercises are taken from website [Learning materials](http://www.cs.put.poznan.pl/jkniat/MatDydakt.html)
 
 <p align="center">Made by ©Konrad Romański</p>
