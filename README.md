@@ -26,7 +26,7 @@ This repository contains programs made in **C language**
 
 ### Forth laboratories
 :heavy_check_mark:[Z7_2.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_2.cpp)\
-:heavy_multiplication_x:[Z7_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_5.cpp)\
+:heavy_check_mark:[Z7_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_5.cpp)\
 :heavy_exclamation_mark:[Z7_1.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_1.cpp)
 
 ### Legend
