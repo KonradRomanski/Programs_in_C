@@ -35,6 +35,7 @@ This repository contains programs made in **C language**
 :heavy_exclamation_mark: - Exercise untouched
 
 ### Additional info
-Exercises are taken from website [Learning materials](http://www.cs.put.poznan.pl/jkniat/MatDydakt.html)
+Exercises were taken from website [Learning materials](http://www.cs.put.poznan.pl/jkniat/MatDydakt.html)\
+The picture was taken from [this](https://online.crbtech.in/wp-content/uploads/2019/03/C-programming-768x398.png) website 
 
 <p align="center">Made by ©Konrad Romański</p>
