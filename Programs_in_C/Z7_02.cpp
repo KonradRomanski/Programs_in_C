@@ -3,7 +3,7 @@
 
 //Python function  for random digits import random;[print(f"{random.randint(1, 274)}", end=" ", sep = "") for i in range(100)];
 
-int Z7_2()
+int Z7_02()
 {
 	char file_in_name[32], file_out_name[32];
 	FILE *file_in;

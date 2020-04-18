@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-int Z3_5()
+int Z3_05()
 {
     char text[16][16] = { {""} };
     char exchange1[16][16] = { {""} };

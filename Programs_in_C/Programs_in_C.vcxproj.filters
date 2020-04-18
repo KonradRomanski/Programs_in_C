@@ -21,15 +21,6 @@
     <ClCompile Include="Z1_15.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Z2_5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Z2_7.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Z2_8.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Z2_10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -39,37 +30,46 @@
     <ClCompile Include="Z2_13.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Z3_5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Z4_15.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Z4_17.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Z5_5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Z5_12.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Z6_9.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Z7_2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Z7_5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Z7_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Z4_19.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Z4_18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z2_05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z2_07.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z2_08.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z3_05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z5_05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z6_09.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z7_01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z7_02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z7_05.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

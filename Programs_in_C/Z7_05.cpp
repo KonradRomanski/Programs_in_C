@@ -21,7 +21,7 @@ nominaly[9] =
 	{5, 'F'}
 };
 
-int Z7_5()
+int Z7_05()
 {
 	FILE* file_in;
 	char dana = 0;

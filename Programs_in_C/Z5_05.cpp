@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-int Z5_5()
+int Z5_05()
 {
     int N = 0, M = 0, X = 0, sum = 0, result = 0;
     scanf_s("%d %d %d", &N, &M, &X);

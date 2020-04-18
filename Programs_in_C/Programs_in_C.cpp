@@ -17,29 +17,29 @@ char vchar()
 
 //Lab 1
 int Z1_15();
-int Z2_5();
-int Z2_7();
+int Z2_05();
+int Z2_07();
 int Z4_15();
 int Z4_17();
 
 //Lab 2
 int Z4_19();
 int Z4_18();
-int Z2_8();
+int Z2_08();
 int Z2_10();
 int Z2_11();
 int Z2_13();
 
 //Lab 3
-int Z5_5();
-int Z3_5();
-int Z6_9();
+int Z5_05();
+int Z3_05();
+int Z6_09();
 int Z5_12();
 
 //Lab 4
-int Z7_2();
-int Z7_5();
-int Z7_1();
+int Z7_02();
+int Z7_05();
+int Z7_01();
 
 int main()
 {

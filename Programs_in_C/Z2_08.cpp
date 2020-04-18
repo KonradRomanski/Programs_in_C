@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-int Z2_8()
+int Z2_08()
 {
 	unsigned int data = 0;
 	scanf_s("%d", &data);

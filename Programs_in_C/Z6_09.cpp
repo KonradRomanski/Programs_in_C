@@ -20,7 +20,7 @@ Dane[] =
     {"Strzelec", 22},
     {"Koziorożec", 22} };
 
-int Z6_9()
+int Z6_09()
 {
     int day, month;
     scanf_s("%d %d", &day, &month);

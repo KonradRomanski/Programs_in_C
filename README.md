@@ -6,29 +6,29 @@ This repository contains programs made in **C language**
 ## List of files
 ### First laboratories
 :heavy_check_mark:[Z1_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z1_15.cpp) - calculating expression value\
-:heavy_check_mark:[Z2_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_5.cpp) - temperature conversion (F and C)\
-:heavy_check_mark:[Z2_7.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_7.cpp) - calculating the values of mathematical functions\
+:heavy_check_mark:[Z2_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_05.cpp) - temperature conversion (F and C)\
+:heavy_check_mark:[Z2_07.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_07.cpp) - calculating the values of mathematical functions\
 :heavy_check_mark:[Z4_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_15.cpp) - value of the expression in the array\
 :heavy_check_mark:[Z4_17.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_17.cpp) - two-dimensional array and trimming it
 
 ### Second laboratories
 :heavy_check_mark:[Z4_19.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_19.cpp) - position search game\
 :heavy_check_mark:[Z4_18.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_18.cpp) - values of the maximum element from each column of the loaded rectangular array\
-:heavy_check_mark:[Z2_8.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_8.cpp) - number of binary digits\
+:heavy_check_mark:[Z2_08.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_08.cpp) - number of binary digits\
 :heavy_check_mark:[Z2_10.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_10.cpp) - operations, oldest / youngest binary digits\
 :heavy_check_mark:[Z2_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_11.cpp) - the occurrence of binary pattern 1011\
 :heavy_check_mark:[Z2_13.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_13.cpp) - converting numbers from decimal/binary to binary/decimal
 
 ### Third laboratories
-:heavy_check_mark:[Z5_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_5.cpp) - dynamic data reading\
-:heavy_check_mark:[Z3_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z3_5.cpp) - word swap in the given text\
-:heavy_check_mark:[Z6_9.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_9.cpp) - structure of the zodiac sign\
+:heavy_check_mark:[Z5_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_05.cpp) - dynamic data reading\
+:heavy_check_mark:[Z3_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z3_05.cpp) - word swap in the given text\
+:heavy_check_mark:[Z6_09.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_09.cpp) - structure of the zodiac sign\
 :heavy_check_mark:[Z5_12.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_12.cpp) - structure of goods register and execution of orders
 
 ### Forth laboratories
-:heavy_check_mark:[Z7_2.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_2.cpp) - reading numbers from a file and saving them\
-:heavy_check_mark:[Z7_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_5.cpp) - counting coins from a file\
-:heavy_exclamation_mark:[Z7_1.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_1.cpp)
+:heavy_check_mark:[Z7_02.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_02.cpp) - reading numbers from a file and saving them\
+:heavy_check_mark:[Z7_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_05.cpp) - counting coins from a file\
+:heavy_exclamation_mark:[Z7_01.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_01.cpp)
 
 ### Legend
 :heavy_check_mark: - Exercise accomplished\

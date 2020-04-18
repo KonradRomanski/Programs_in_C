@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int Z2_7()
+int Z2_07()
 {
 	double x = 0;
 	int numer = 7;

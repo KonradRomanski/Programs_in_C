@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int Z2_5()
+int Z2_05()
 {
 	int kierunek = 2;
 	printf("Podaj kierunek konwersji (C->F/F->C = 1/0): ");

@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-int Z7_1()
+int Z7_01()
 {
 
     return 1;
