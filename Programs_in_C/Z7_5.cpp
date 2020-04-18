@@ -24,18 +24,36 @@ nominaly[9] =
 int Z7_5()
 {
 	FILE* file_in;
-	int dana = 0;
+	char dana = 0;
+	double full_sum = 0;
+	double particular_sum[9] = { 0 };
 
+	fopen_s(&file_in, "Z7_5_in.txt", "r");
 
-	fopen_s(&file_in, "Z7_5_out.txt", "r");
+	dana = fgetc(file_in);
 
-
-	if (dana > 137)
+	printf("Reading data: \n");
+	while (dana != EOF)
 	{
-		//printf("__|%d|__  ", dana);
-		fprintf(file_in, "%d ", dana);
+		for (int i = 0; i < 9; i++)
+		{
+			if (nominaly[i].znak == dana)
+			{
+				full_sum += nominaly[i].moneta;
+				particular_sum[i] += nominaly[i].moneta;
+			}
+		}
 
+		printf("%c  ", dana);
+		dana = fgetc(file_in);
 	}
+
+	printf("\nStats ([ value | sign ] sum - quantity): \n");
+	for (int i = 0; i < 9; i++)
+	{
+		printf("[ %lf | %c ] %lf - %d\n", nominaly[i].moneta, nominaly[i].znak, particular_sum[i], int(round(particular_sum[i]/nominaly[i].moneta)));
+	}
+	printf("Full sum: %lf", full_sum);
 
 	fclose(file_in);
 
