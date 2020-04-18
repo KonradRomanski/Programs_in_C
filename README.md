@@ -5,24 +5,24 @@ This repository contains programs made in **C language**
 
 ## List of files
 ### First laboratories
-:heavy_check_mark:[Z1_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z1_15.cpp)\
-:heavy_check_mark:[Z2_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_5.cpp)\
-:heavy_check_mark:[Z2_7.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_7.cpp)\
-:heavy_check_mark:[Z4_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_15.cpp)\
-:heavy_check_mark:[Z4_17.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_17.cpp)
+:heavy_check_mark:[Z1_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z1_15.cpp) - calculating expression value\
+:heavy_check_mark:[Z2_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_5.cpp) - temperature conversion (F and C)\
+:heavy_check_mark:[Z2_7.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_7.cpp) - calculating the values of mathematical functions\
+:heavy_check_mark:[Z4_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_15.cpp) - value of the expression in the array\
+:heavy_check_mark:[Z4_18.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_18.cpp) - position search game
 
 ### Second laboratories
-:heavy_check_mark:[Z4_18.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_18.cpp)\
-:heavy_check_mark:[Z2_8.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_8.cpp)\
-:heavy_check_mark:[Z2_10.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_10.cpp)\
-:heavy_check_mark:[Z2_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_11.cpp)\
-:heavy_check_mark:[Z2_13.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_13.cpp)
+:heavy_check_mark:[Z4_18.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_18.cpp) - sum of the product of sums\
+:heavy_check_mark:[Z2_8.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_8.cpp) - number of binary digits\
+:heavy_check_mark:[Z2_10.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_10.cpp) - operations, oldest / youngest binary digits\
+:heavy_check_mark:[Z2_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_11.cpp) - the occurrence of binary pattern 1011\
+:heavy_check_mark:[Z2_13.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_13.cpp) - converting numbers from decimal/binary to binary/decimal
 
 ### Third laboratories
-:heavy_check_mark:[Z5_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_5.cpp)\
-:heavy_check_mark:[Z3_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z3_5.cpp)\
-:heavy_check_mark:[Z6_9.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_9.cpp)\
-:heavy_check_mark:[Z5_12.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_12.cpp)
+:heavy_check_mark:[Z5_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_5.cpp) - dynamic data reading\
+:heavy_check_mark:[Z3_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z3_5.cpp) - word swap in the given text\
+:heavy_check_mark:[Z6_9.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_9.cpp) - structure of the zodiac sign\
+:heavy_check_mark:[Z5_12.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_12.cpp) - structure of goods register and execution of orders
 
 ### Forth laboratories
 :heavy_check_mark:[Z7_2.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_2.cpp) - reading numbers from a file and saving them\
