@@ -10,6 +10,14 @@ This repository contains programs made in **C language**
 :heavy_check_mark:[Z2_07.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_07.cpp) - calculating the values of mathematical functions\
 :heavy_check_mark:[Z4_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_15.cpp) - value of the expression in the array\
 :heavy_check_mark:[Z4_17.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_17.cpp) - two-dimensional array and trimming it
+<details><summary>full content of tasks</summary>
+<p>
+
+```cpp
+cout << "Section in building";
+```
+</p>
+</details>
 
 ### Second laboratories
 :heavy_check_mark:[Z4_19.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_19.cpp) - position search game\
