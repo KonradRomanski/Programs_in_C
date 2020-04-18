@@ -12,7 +12,8 @@ This repository contains programs made in **C language**
 :heavy_check_mark:[Z4_17.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_17.cpp) - two-dimensional array and trimming it
 
 ### Second laboratories
-:heavy_check_mark:[Z4_18.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_18.cpp) - position search game\
+:heavy_check_mark:[Z4_19.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_19.cpp) - position search game\
+:heavy_check_mark:[Z4_18.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_18.cpp) - values of the maximum element from each column of the loaded rectangular array\
 :heavy_check_mark:[Z2_8.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_8.cpp) - number of binary digits\
 :heavy_check_mark:[Z2_10.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_10.cpp) - operations, oldest / youngest binary digits\
 :heavy_check_mark:[Z2_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_11.cpp) - the occurrence of binary pattern 1011\
@@ -36,6 +37,6 @@ This repository contains programs made in **C language**
 
 ### Additional info
 Exercises were taken from website [Learning materials](http://www.cs.put.poznan.pl/jkniat/MatDydakt.html)\
-The picture was taken from [this](https://online.crbtech.in/wp-content/uploads/2019/03/C-programming-768x398.png) website 
+The picture was taken from [this](https://online.crbtech.in/wp-content/uploads/2019/03/C-programming-768x398.png) website
 
 <p align="center">Made by ©Konrad Romański</p>

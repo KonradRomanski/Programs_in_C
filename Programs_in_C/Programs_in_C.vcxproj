@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Programs_in_C.cpp" />
-    <ClCompile Include="Test_1.cpp" />
+    <ClCompile Include="Z4_18.cpp" />
     <ClCompile Include="Z1_15.cpp" />
     <ClCompile Include="Z2_10.cpp" />
     <ClCompile Include="Z2_11.cpp" />
@@ -159,7 +159,7 @@
     <ClCompile Include="Z3_5.cpp" />
     <ClCompile Include="Z4_15.cpp" />
     <ClCompile Include="Z4_17.cpp" />
-    <ClCompile Include="Z4_18.cpp" />
+    <ClCompile Include="Z4_19.cpp" />
     <ClCompile Include="Z5_12.cpp" />
     <ClCompile Include="Z5_5.cpp" />
     <ClCompile Include="Z6_9.cpp" />
