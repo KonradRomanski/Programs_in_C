@@ -25,8 +25,8 @@ This repository contains programs made in **C language**
 :heavy_check_mark:[Z5_12.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_12.cpp)
 
 ### Forth laboratories
-:heavy_check_mark:[Z7_2.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_2.cpp)\
-:heavy_check_mark:[Z7_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_5.cpp)\
+:heavy_check_mark:[Z7_2.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_2.cpp) - reading numbers from a file and saving them\
+:heavy_check_mark:[Z7_5.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_5.cpp) - counting coins from a file\
 :heavy_exclamation_mark:[Z7_1.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_1.cpp)
 
 ### Legend
