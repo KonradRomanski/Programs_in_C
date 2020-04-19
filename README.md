@@ -5,7 +5,7 @@ This repository contains programs made in **C language**
 
 ## List of files
 ### First laboratories
-:heavy_check_mark:[Z1_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z1_15.cpp) - calculating expression value\
+:heavy_check_mark:[Z1_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z1_15.cpp) - [calculating expression value](#z1_15)\
 :heavy_check_mark:[Z2_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_05.cpp) - temperature conversion (F and C)\
 :heavy_check_mark:[Z2_07.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z2_07.cpp) - calculating the values of mathematical functions\
 :heavy_check_mark:[Z4_15.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z4_15.cpp) - value of the expression in the array\
