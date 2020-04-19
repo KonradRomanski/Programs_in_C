@@ -150,7 +150,7 @@ Tablica towarów:
 ### Forth laboratories
 :heavy_check_mark:[Z7_02.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_02.cpp) - reading numbers from a file and saving them\
 :heavy_check_mark:[Z7_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_05.cpp) - counting coins from a file\
-:heavy_multiplication_x:[Z7_01.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_01.cpp) - saving, reading data structures from file, adding new data structure and showing them
+:heavy_check_mark:[Z7_01.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_01.cpp) - saving, reading data structures from file, adding new data structure and showing them
 
 <details><summary>full content of forth tasks</summary>
 <p>
