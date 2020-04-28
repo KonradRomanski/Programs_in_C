@@ -186,6 +186,71 @@ Dla realizacji poszczególnych opcji zdefiniować funkcje.
 </p>
 </details>
 
+### Fifth laboratories
+:heavy_exclamation_mark:[Z6_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_05.cpp)\
+:heavy_exclamation_mark:[Z7_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_11.cpp)\
+:heavy_exclamation_mark:[Z7_08.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_08.cpp)
+
+<details><summary>full content of fifth tasks</summary>
+<p>
+
+#### Z6_05
+Opracować program, który po wczytaniu wartości n tworzy dynamicznie tablicę jednowymiarową T[n] i wczytuje jej elementy. Następnie program umożliwia wykonanie 3 funkcji:
+- 0 : znajduje maksymalny element tablicy T,
+- 1 : znajduje minimalny element tablicy T,
+- 2: oblicza średnią arytmetyczną elementów z tablicy T.
+
+Wprowadzenie innego numeru operacji kończy program. Zastosować tablicę wskaźników funkcji.
+
+#### Z7_11
+Opracować program, który wyznacza histogram występowania liter a – z w pliku dyskowym Eden.txt. Wyniki wyświetlić w postaci tabeli liczbowej i wykresu wstęgowego.
+
+Przykładowe wyniki:
+```
+
+a :  34768 => 23.7%
+..............................
+z :      235 => 1.2%
+
+a | *****************
+.........................
+z | **
+
+```
+
+#### Z7_08
+W pliku `Pomiary.txt` zapisane są: liczba serii pomiarów i kolejne serie pomiarów. Pojedyncza seria opisana jest za pomocą następującej struktury:
+
+|        numer serii        |
+|:-------------------------:|
+|         pomiar_1          |
+|         pomiar_2          |
+|         pomiar_3          |
+|         pomiar_4          |
+| kod sposobu przetwarzania |
+
+Numer serii to dowolna liczba typu int, pomiary to liczby double, kod sposobu przetwarzania to liczba typu int o wartości `0 - 2`. Opracować program, który wczytuje kolejne struktury i w zależności od wartości podanego kodu przetwarza pomiary:
+
+| kod |                    opis                    |
+|:---:|:------------------------------------------:|
+|  0  | obliczenie średniej arytmetycznej pomiarów |
+|  1  |  wybranie pomiaru o wartości największej   |
+|  2  |  wybranie pomiaru o wartości najmniejszej  |
+
+Jako efekt przetwarzania należy wpisać do pliku `Wyniki.txt` liczbę serii a następnie ciąg następujących struktur:
+
+|       numer serii        |
+|:-------------------------:|
+|     wyliczona wartość     |
+| kod sposobu przetwarzania |
+
+Dla każdego z trzech sposobów przetwarzania danych pomiarowych zdefiniować funkcję
+i zastosować tablicę wskaźników funkcji.
+
+
+</p>
+</details>
+
 ### Legend
 :heavy_check_mark: - Exercise accomplished\
 :heavy_multiplication_x: - Exercise in progress\
