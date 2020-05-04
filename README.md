@@ -187,7 +187,7 @@ Dla realizacji poszczególnych opcji zdefiniować funkcje.
 </details>
 
 ### Fifth laboratories
-:heavy_exclamation_mark:[Z6_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_05.cpp)\
+:heavy_check_mark:[Z6_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_05.cpp)\
 :heavy_exclamation_mark:[Z7_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_11.cpp)\
 :heavy_exclamation_mark:[Z7_08.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_08.cpp)
 
