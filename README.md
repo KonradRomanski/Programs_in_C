@@ -203,7 +203,7 @@ Opracować program, który po wczytaniu wartości n tworzy dynamicznie tablicę 
 Wprowadzenie innego numeru operacji kończy program. Zastosować tablicę wskaźników funkcji.
 
 #### Z7_11
-Opracować program, który wyznacza histogram występowania liter a – z w pliku dyskowym Eden.txt. Wyniki wyświetlić w postaci tabeli liczbowej i wykresu wstęgowego.
+Opracować program, który wyznacza histogram występowania liter a – z w pliku dyskowym [Eden.txt](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Eden.txt). Wyniki wyświetlić w postaci tabeli liczbowej i wykresu wstęgowego.
 
 Przykładowe wyniki:
 ```

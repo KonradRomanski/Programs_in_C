@@ -41,6 +41,11 @@ int Z7_02();
 int Z7_05();
 int Z7_01();
 
+//Lab 5
+int Z6_05();
+int Z7_11();
+int Z7_08();
+
 int main()
 {
     printf("---------------------------------\n");
@@ -75,7 +80,7 @@ int main()
 //#include <math.h>
 //
 //
-//int Z2_13()
+//int Z()
 //{
 //
 //    return 1;
