@@ -195,10 +195,10 @@ Dla realizacji poszczególnych opcji zdefiniować funkcje.
 <p>
 
 #### Z6_05
-Opracować program, który po wczytaniu wartości n tworzy dynamicznie tablicę jednowymiarową T[n] i wczytuje jej elementy. Następnie program umożliwia wykonanie 3 funkcji:
-- 0 : znajduje maksymalny element tablicy T,
-- 1 : znajduje minimalny element tablicy T,
-- 2: oblicza średnią arytmetyczną elementów z tablicy T.
+Opracować program, który po wczytaniu wartości `n` tworzy dynamicznie tablicę jednowymiarową `T[n]` i wczytuje jej elementy. Następnie program umożliwia wykonanie 3 funkcji:
+- `0` : znajduje maksymalny element tablicy `T`,
+- `1` : znajduje minimalny element tablicy `T`,
+- `2`: oblicza średnią arytmetyczną elementów z tablicy `T`.
 
 Wprowadzenie innego numeru operacji kończy program. Zastosować tablicę wskaźników funkcji.
 

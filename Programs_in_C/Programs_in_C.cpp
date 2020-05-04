@@ -72,7 +72,11 @@ int main()
 
     //Z7_02();
     //Z7_05();
-    Z7_01();
+    //Z7_01();
+
+    Z6_05();
+    //Z7_11();
+    //Z7_08();
 }
 
 //pattern for programs files
