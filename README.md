@@ -187,7 +187,7 @@ Dla realizacji poszczególnych opcji zdefiniować funkcje.
 </details>
 
 ### Fifth laboratories
-:heavy_check_mark:[Z6_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_05.cpp)\
+:heavy_check_mark:[Z6_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_05.cpp) - dynamic array creation, function table\
 :heavy_exclamation_mark:[Z7_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_11.cpp)\
 :heavy_exclamation_mark:[Z7_08.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_08.cpp)
 
@@ -246,6 +246,64 @@ Jako efekt przetwarzania należy wpisać do pliku `Wyniki.txt` liczbę serii a n
 
 Dla każdego z trzech sposobów przetwarzania danych pomiarowych zdefiniować funkcję
 i zastosować tablicę wskaźników funkcji.
+
+
+</p>
+</details>
+
+### Sixth laboratories
+:heavy_exclamation_mark:[Z5_07.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_07.cpp)\
+:heavy_exclamation_mark:[Z5_13.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z5_13.cpp)\
+:heavy_exclamation_mark:[Z7_16.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_16.cpp)
+
+<details><summary>full content of sixth tasks</summary>
+<p>
+
+#### Z5_07
+Opracować program, który umożliwia przetwarzanie tablicy dwuwymiarowej (macierzy) posiadającej 5 kolumn i zawierającej liczby typu double. Program realizuje następujące opcje:
+- `1` - wczytanie liczby wierszy tablicy  `ile_w`  (`< 10`) oraz wartości elementów tablicy (wyprowadzać zaproszenie w postaci `Tab[wie][kol] =`  ),
+- `2` - wczytanie wartości `X` i obliczenie w każdym wierszu sumy elementów większych od `X`,
+- `3` - wczytanie wartości `N` i obliczenie w każdej kolumnie iloczynu `N` początkowych elementów,
+- `4` - obliczenie liczby wierszy, w których początkowy element jest większy od ostatniego,
+- `5` - obliczenie liczby kolumn, w których występuje przynajmniej jedna wartość `0`,
+- `0` - koniec programu.
+
+Dla realizacji opcji `1` do `5` zdefiniować funkcje i zastosować tablicę wskaźników funkcji.
+
+#### Z5_13
+Napisać program, który umożliwia przetwarzanie prostego rejestru pracowników
+
+| TablicaPracowników |
+|:------------------:|
+|      Imie[16]      |
+|    Nazwisko[64]    |
+|       Pesel        |
+|      Imie[16]      |
+|    Nazwisko[64]    |
+|       Pesel        |
+|        ...         |
+|      Imie[16]      |
+|    Nazwisko[64]    |
+|       Pesel        |
+
+Pesel przechowywać jako liczbę typu long long. Program realizuje polecenia:
+- `A` – nowy pracownik (dopisywany w następne wolne miejsce) ,
+- `B` – wyświetl wszystkich pracowników,
+- `C` – sprawdź, czy pracownik o podanym Peselu znajduje się w tabeli i wyświetl jego Nazwisko,
+- `D` – usuń pracownika o podanym nazwisku (o ile istnieje w tabeli),
+- `E` – zapisanie danych do pliku,
+- `F` – odczytanie danych z pliku,
+- inna – koniec programu.
+
+`TablicaPracowników` ma mieć długość `100` elementów. Do pliku dyskowego należy zapisywać (i następnie odczytywać) najpierw liczbę ważnych pozycji tabeli, a następnie same te pozycje. Dla realizacji poszczególnych opcji zdefiniować funkcje i zastosować tablicę wskaźników funkcji.
+
+#### Z7_16
+Opracować program, który wczytuje rozmiary  `W` i `K` tablicy dwuwymiarowej, tworzy dynamicznie taką tablicę dla liczb unsigned int  i wczytuje jej elementy wierszami. Następnie program wyprowadza na monitor element z wierszy `1` do `W-1` tych kolumn, których element z wiersza o indeksie `0` zawiera:
+- na najstarszych pozycja bitowych ciąg `1011` oraz
+- na najmłodszych pozycja bitowych ciąg `0010`.
+
+Dla sprawdzenia, czy ciąg binarny spełnia podane warunki zdefiniować funkcję wykorzystującą operatory bitowe.
+
 
 
 </p>

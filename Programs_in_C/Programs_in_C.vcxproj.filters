@@ -81,5 +81,14 @@
     <ClCompile Include="Z7_08.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Z5_07.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z5_13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z7_16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
