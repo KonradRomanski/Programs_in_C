@@ -189,7 +189,7 @@ Dla realizacji poszczególnych opcji zdefiniować funkcje.
 ### Fifth laboratories
 :heavy_check_mark:[Z6_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_05.cpp) - dynamic array creation, function table\
 :heavy_check_mark:[Z7_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_11.cpp) - letters statistics, charts\
-:heavy_exclamation_mark:[Z7_08.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_08.cpp)
+:heavy_check_mark:[Z7_08.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_08.cpp) - data structures, files, function table
 
 <details><summary>full content of fifth tasks</summary>
 <p>
@@ -219,7 +219,7 @@ z | **
 ```
 
 #### Z7_08
-W pliku `Pomiary.txt` zapisane są: liczba serii pomiarów i kolejne serie pomiarów. Pojedyncza seria opisana jest za pomocą następującej struktury:
+W pliku [Pomiary.txt](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Pomiary.txt) zapisane są: liczba serii pomiarów i kolejne serie pomiarów. Pojedyncza seria opisana jest za pomocą następującej struktury:
 
 |        numer serii        |
 |:-------------------------:|
@@ -237,7 +237,7 @@ Numer serii to dowolna liczba typu int, pomiary to liczby double, kod sposobu pr
 |  1  |  wybranie pomiaru o wartości największej   |
 |  2  |  wybranie pomiaru o wartości najmniejszej  |
 
-Jako efekt przetwarzania należy wpisać do pliku `Wyniki.txt` liczbę serii a następnie ciąg następujących struktur:
+Jako efekt przetwarzania należy wpisać do pliku [Wyniki.txt](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Wyniki.txt) liczbę serii a następnie ciąg następujących struktur:
 
 |       numer serii        |
 |:-------------------------:|
