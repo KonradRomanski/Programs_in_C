@@ -309,9 +309,8 @@ Dla sprawdzenia, czy ciąg binarny spełnia podane warunki zdefiniować funkcję
 </p>
 </details>
 
-### Summary
-
-Completed: :two::one: **/** :two::four:
+### Task counter: 
+:heavy_multiplication_x::two::one: **/** :two::four::heavy_multiplication_x:
 
 ### Legend
 :heavy_check_mark: - Exercise accomplished\
