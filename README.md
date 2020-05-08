@@ -311,7 +311,7 @@ Dla sprawdzenia, czy ciąg binarny spełnia podane warunki zdefiniować funkcję
 
 ### Summary
 
-Completed: :two::zero: **/** :two::four:
+Completed: :two::one: **/** :two::four:
 
 ### Legend
 :heavy_check_mark: - Exercise accomplished\
