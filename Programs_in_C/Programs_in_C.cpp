@@ -79,14 +79,16 @@ int main()
     //Z7_05();
     //Z7_01();
 
-    Z6_05();
-    //Z7_11();
+    //Z6_05();
+    Z7_11();
     //Z7_08();
 
     //Z5_07();
     //Z5_13();
     //Z7_16();
 }
+
+//&0x5F - vig letters
 
 //pattern for programs files
 //#include <stdio.h>

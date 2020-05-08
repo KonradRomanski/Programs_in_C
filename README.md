@@ -188,7 +188,7 @@ Dla realizacji poszczególnych opcji zdefiniować funkcje.
 
 ### Fifth laboratories
 :heavy_check_mark:[Z6_05.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z6_05.cpp) - dynamic array creation, function table\
-:heavy_exclamation_mark:[Z7_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_11.cpp)\
+:heavy_check_mark:[Z7_11.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_11.cpp) - letters statistics, charts\
 :heavy_exclamation_mark:[Z7_08.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z7_08.cpp)
 
 <details><summary>full content of fifth tasks</summary>
