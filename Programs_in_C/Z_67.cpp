@@ -1,10 +1,21 @@
 #include <stdio.h>
 #include <math.h>
 
-int bin2hex()
+void bin2hex(int *bindata, char *hexval)
 {
+    int decval = 0;
+    int a = 1;
+    char p[] = "0123456789ABCDEF";
 
-    return 1;
+    for (int i = 0; i < 8; i++) decval = (decval * 2) + bindata[i];
+
+    while (decval != 0)
+    {
+        hexval[a] = p[decval % 16];
+        decval /= 16;
+        a--;
+    }
+
 }
 
 int hex2bin()
@@ -16,9 +27,12 @@ int hex2bin()
 int Z_67()
 {
     char code[4];
+    char hexcode[2] = {'0', '0'};
     int bincode[8] = {0};
     FILE* file_in;
+    FILE* file_out;
     fopen_s(&file_in, "Z_67_in.txt", "r");
+    fopen_s(&file_out, "Z_67_out.txt", "w");
 
     for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
 
@@ -62,11 +76,20 @@ int Z_67()
         for (int i = 0; i < 8; i++) printf("%d", bincode[i]);
         printf("\n");
 
+        bin2hex(bincode, hexcode);
+
+        printf("%c%c\n", hexcode[0], hexcode[1]);
+        printf("\n");
+
         fgetc(file_in);
         for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
+
+        if (feof(file_in) == 0) fprintf(file_out, "%c%c ", hexcode[0], hexcode[1]);
+        else fprintf(file_out, "%c%c\n", hexcode[0], hexcode[1]);
 
     }
 
     fclose(file_in);
+    fclose(file_out);
     return 1;
 }
