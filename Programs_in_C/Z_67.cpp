@@ -56,83 +56,96 @@ int Z_67()
         fopen_s(&file_in, "Z_67_in.txt", "r");
         fopen_s(&file_out, "Z_67_out.txt", "w");
 
+        //fopen_s(&file_in, data, "r");
+        //fopen_s(&file_out, result, "w");
 
-
-        switch (opcja)
+        if (file_in == NULL && (opcja == 'K' || opcja == 'D'))
         {
-        case 'K':
+            printf("Plik o nazwie  %s  nie istnieje, sprobuj jeszcze raz\n\n", data);
+            opcja = 'A';
+        }
+        else
         {
-            for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
-
-            while (feof(file_in) == 0)
+            switch (opcja)
             {
-
-                for (int i = 0; i < 4; i++)
-                {
-                    switch (code[i])
-                    {
-                    case 'A':
-                    {
-                        bincode[i * 2] = 0;
-                        bincode[(i * 2) + 1] = 0;
-                        break;
-                    }
-                    case 'C':
-                    {
-                        bincode[i * 2] = 0;
-                        bincode[(i * 2) + 1] = 1;
-                        break;
-                    }
-                    case 'G':
-                    {
-                        bincode[i * 2] = 1;
-                        bincode[(i * 2) + 1] = 0;
-                        break;
-                    }
-                    case 'T':
-                    {
-                        bincode[i * 2] = 1;
-                        bincode[(i * 2) + 1] = 1;
-                        break;
-                    }
-                    }
-                }
-
-                for (int i = 0; i < 4; i++) printf("%c", code[i]); printf("\n");
-                for (int i = 0; i < 8; i++) printf("%d", bincode[i]); printf("\n");
-
-                bin2hex(bincode, hexcode);
-
-                printf("%c%c\n", hexcode[0], hexcode[1]); printf("\n");
-
-                fgetc(file_in);
+            case 'K':
+            {
                 for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
 
-                if (feof(file_in) == 0) fprintf(file_out, "%c%c ", hexcode[0], hexcode[1]);
-                else fprintf(file_out, "%c%c\n", hexcode[0], hexcode[1]);
+                while (feof(file_in) == 0)
+                {
 
+                    for (int i = 0; i < 4; i++)
+                    {
+                        switch (code[i])
+                        {
+                        case 'A':
+                        {
+                            bincode[i * 2] = 0;
+                            bincode[(i * 2) + 1] = 0;
+                            break;
+                        }
+                        case 'C':
+                        {
+                            bincode[i * 2] = 0;
+                            bincode[(i * 2) + 1] = 1;
+                            break;
+                        }
+                        case 'G':
+                        {
+                            bincode[i * 2] = 1;
+                            bincode[(i * 2) + 1] = 0;
+                            break;
+                        }
+                        case 'T':
+                        {
+                            bincode[i * 2] = 1;
+                            bincode[(i * 2) + 1] = 1;
+                            break;
+                        }
+                        }
+                    }
+
+                    for (int i = 0; i < 4; i++) printf("%c", code[i]); printf("\n");
+                    for (int i = 0; i < 8; i++) printf("%d", bincode[i]); printf("\n");
+
+                    bin2hex(bincode, hexcode);
+
+                    printf("%c%c\n", hexcode[0], hexcode[1]); printf("\n");
+
+                    fgetc(file_in);
+                    for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
+
+                    if (feof(file_in) == 0) fprintf(file_out, "%c%c ", hexcode[0], hexcode[1]);
+                    else fprintf(file_out, "%c%c\n", hexcode[0], hexcode[1]);
+
+                }
+
+                break;
+            }
+            case 'D':
+            {
+
+                break;
+            }
+            case 'W':
+            {
+                printf("Konczenie pracy programu...\n");
+                break;
+            }
+            default:
+            {
+                printf("Wybrano bledna opcje :( , sprobuj jeszcze raz\n\n");
+                break;
+            }
             }
 
-            break;
+            if (file_in != NULL)
+            {
+                fclose(file_in);
+                fclose(file_out);
+            }
         }
-        case 'D':
-        {
-
-            break;
-        }
-        case 'W':
-        {
-            printf("Wybrano koniec programu");
-            break;
-        }
-        default:
-        {
-            printf("Bledna opcja :( , sprobuj jeszcze raz\n\n");
-            break;
-        }
-        }
-        fclose(file_in);
-        fclose(file_out);
     }
 
 
