@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 void bin2hex(int *bindata, char *hexval)
 {
@@ -11,17 +10,22 @@ void bin2hex(int *bindata, char *hexval)
 
     while (decval != 0)
     {
-        hexval[a] = p[decval % 16];
+        hexval[a--] = p[decval % 16];
         decval /= 16;
-        a--;
     }
 
 }
 
-int hex2bin()
+void hex2bin()
 {
 
-    return 1;
+}
+
+char rchar()
+{
+    char cc;
+    while ((cc = getchar()) <= ' ');
+    return cc;
 }
 
 int Z_67()
@@ -31,65 +35,108 @@ int Z_67()
     int bincode[8] = {0};
     FILE* file_in;
     FILE* file_out;
-    fopen_s(&file_in, "Z_67_in.txt", "r");
-    fopen_s(&file_out, "Z_67_out.txt", "w");
+    char data[32];
+    char result[32];
+    char opcja = ' ';
 
-    for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
-
-    while (feof(file_in) == 0)
+    while (!(opcja == 'K' || opcja == 'D') && opcja != 'W')
     {
-
-
-        for (int i = 0; i < 4; i++)
+        printf("Wybierz opcje kodowanie/dekodowanie/wyjscie [k/d/w]: ");
+        opcja = rchar();
+        opcja &= 0x5F;
+        if (opcja == 'K' || opcja == 'D')
         {
-            switch (code[i])
-            {
-            case 'A':
-            {
-                bincode[i * 2] = 0;
-                bincode[(i * 2) + 1] = 0;
-                break;
-            }
-            case 'C':
-            {
-                bincode[i * 2] = 0;
-                bincode[(i * 2) + 1] = 1;
-                break;
-            }
-            case 'G':
-            {
-                bincode[i * 2] = 1;
-                bincode[(i * 2) + 1] = 0;
-                break;
-            }
-            case 'T':
-            {
-                bincode[i * 2] = 1;
-                bincode[(i * 2) + 1] = 1;
-                break;
-            }
-            }
+            printf("Wpisz nazwe pliku wejsciowego: ");
+            scanf_s("%s", &data, 32);
+            printf("Wpisz nazwe pliku wyjsciowego: ");
+            scanf_s("%s", &result, 32);
+
         }
 
-        for (int i = 0; i < 4; i++) printf("%c", code[i]);
-        printf("\n");
-        for (int i = 0; i < 8; i++) printf("%d", bincode[i]);
-        printf("\n");
+        fopen_s(&file_in, "Z_67_in.txt", "r");
+        fopen_s(&file_out, "Z_67_out.txt", "w");
 
-        bin2hex(bincode, hexcode);
 
-        printf("%c%c\n", hexcode[0], hexcode[1]);
-        printf("\n");
 
-        fgetc(file_in);
-        for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
+        switch (opcja)
+        {
+        case 'K':
+        {
+            for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
 
-        if (feof(file_in) == 0) fprintf(file_out, "%c%c ", hexcode[0], hexcode[1]);
-        else fprintf(file_out, "%c%c\n", hexcode[0], hexcode[1]);
+            while (feof(file_in) == 0)
+            {
 
+                for (int i = 0; i < 4; i++)
+                {
+                    switch (code[i])
+                    {
+                    case 'A':
+                    {
+                        bincode[i * 2] = 0;
+                        bincode[(i * 2) + 1] = 0;
+                        break;
+                    }
+                    case 'C':
+                    {
+                        bincode[i * 2] = 0;
+                        bincode[(i * 2) + 1] = 1;
+                        break;
+                    }
+                    case 'G':
+                    {
+                        bincode[i * 2] = 1;
+                        bincode[(i * 2) + 1] = 0;
+                        break;
+                    }
+                    case 'T':
+                    {
+                        bincode[i * 2] = 1;
+                        bincode[(i * 2) + 1] = 1;
+                        break;
+                    }
+                    }
+                }
+
+                for (int i = 0; i < 4; i++) printf("%c", code[i]); printf("\n");
+                for (int i = 0; i < 8; i++) printf("%d", bincode[i]); printf("\n");
+
+                bin2hex(bincode, hexcode);
+
+                printf("%c%c\n", hexcode[0], hexcode[1]); printf("\n");
+
+                fgetc(file_in);
+                for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
+
+                if (feof(file_in) == 0) fprintf(file_out, "%c%c ", hexcode[0], hexcode[1]);
+                else fprintf(file_out, "%c%c\n", hexcode[0], hexcode[1]);
+
+            }
+
+            break;
+        }
+        case 'D':
+        {
+
+            break;
+        }
+        case 'W':
+        {
+            printf("Wybrano koniec programu");
+            break;
+        }
+        default:
+        {
+            printf("Bledna opcja :( , sprobuj jeszcze raz\n\n");
+            break;
+        }
+        }
+        fclose(file_in);
+        fclose(file_out);
     }
 
-    fclose(file_in);
-    fclose(file_out);
+
+
+
     return 1;
 }
