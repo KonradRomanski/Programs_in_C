@@ -16,9 +16,23 @@ void bin2hex(int *bindata, char *hexval)
 
 }
 
-void hex2bin()
+void hex2bin(char *hexval, int *bindata)
 {
+    int a = 7;
+    int b = 0;
+    for (int i = 0; i < 2; i++)
+    {
+        if (hexval[i] < '9') b = b * 16 + int(hexval[i] - '0');
+        else b = b * 16 + int(hexval[i] - 'A' + 10);
+    }
+    //printf("WYNIK: %d\n", b);
 
+    while (b != 0)
+    {
+        bindata[a] = (b % 2 == 0 ? 0 : 1);
+        b /= 2;
+        a--;
+    }
 }
 
 char rchar()
@@ -53,8 +67,8 @@ int Z_67()
 
         }
 
-        fopen_s(&file_in, "Z_67_in.txt", "r");
-        fopen_s(&file_out, "Z_67_out.txt", "w");
+        fopen_s(&file_in, "Z_67_out.txt", "r");
+        fopen_s(&file_out, "Z_67_out2.txt", "w");
 
         //fopen_s(&file_in, data, "r");
         //fopen_s(&file_out, result, "w");
@@ -125,6 +139,21 @@ int Z_67()
             }
             case 'D':
             {
+                for (int i = 0; i < 2; i++) hexcode[i] = fgetc(file_in);
+                fgetc(file_in);
+                while (feof(file_in) == 0)
+                {
+                    hex2bin(hexcode, bincode);
+
+                    printf("Hexcode: ");
+                    for (int i = 0; i < 2; i++) printf("%c", hexcode[i]); printf("\n");
+                    printf("Bincode: ");
+                    for (int i = 0; i < 8; i++) printf("%d", bincode[i]); printf("\n");
+                    printf("----\n");
+
+                    for (int i = 0; i < 2; i++) hexcode[i] = fgetc(file_in);
+                    fgetc(file_in);
+                }
 
                 break;
             }
