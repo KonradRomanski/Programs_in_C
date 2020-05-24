@@ -45,7 +45,7 @@ char rchar()
 
 int Z_67()
 {
-    char code[4];
+    char code[4] = { 'A', 'A', 'A', 'A' };
     char hexcode[2] = {'0', '0'};
     int bincode[8] = {0};
     FILE* file_in = NULL;
@@ -88,13 +88,8 @@ int Z_67()
                     fopen_s(&file_out, result, "w");
                     ok = true;
                 }
-
             }
         }
-
-        //fopen_s(&file_in, "w", "r");
-        //fopen_s(&file_out, "w", "w");
-
 
         if (ok)
         {
@@ -102,8 +97,9 @@ int Z_67()
             {
             case 'K':
             {
-                for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
+                printf("CODE - HEX\n-----------\n");
 
+                for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
                 while (feof(file_in) == 0)
                 {
 
@@ -138,19 +134,16 @@ int Z_67()
                         }
                     }
 
-                    for (int i = 0; i < 4; i++) printf("%c", code[i]); printf("\n");
-                    for (int i = 0; i < 8; i++) printf("%d", bincode[i]); printf("\n");
-
                     bin2hex(bincode, hexcode);
 
-                    printf("%c%c\n", hexcode[0], hexcode[1]); printf("\n");
+                    for (int i = 0; i < 4; i++) printf("%c", code[i]); printf(" - ");
+                    printf("%c%c\n", hexcode[0], hexcode[1]);
 
                     fgetc(file_in);
                     for (int i = 0; i < 4; i++) code[i] = fgetc(file_in);
 
                     if (feof(file_in) == 0) fprintf(file_out, "%c%c ", hexcode[0], hexcode[1]);
                     else fprintf(file_out, "%c%c\n", hexcode[0], hexcode[1]);
-
                 }
                 fclose(file_in);
                 fclose(file_out);
@@ -158,6 +151,8 @@ int Z_67()
             }
             case 'D':
             {
+                printf("HEX - CODE\n-----------\n");
+
                 for (int i = 0; i < 2; i++) hexcode[i] = fgetc(file_in);
                 fgetc(file_in);
                 while (feof(file_in) == 0)
@@ -208,12 +203,8 @@ int Z_67()
                         }
                     }
 
-                    printf("Hexcode: ");
-                    for (int i = 0; i < 2; i++) printf("%c", hexcode[i]); printf("\n");
-                    printf("Bincode: ");
-                    for (int i = 0; i < 8; i++) printf("%d", bincode[i]); printf("\n");
+                    for (int i = 0; i < 2; i++) printf("%c", hexcode[i]); printf(" - ");
                     for (int i = 0; i < 4; i++) printf("%c", code[i]); printf("\n");
-                    printf("----\n");
 
                     for (int i = 0; i < 4; i++) fprintf(file_out, "%c", code[i]);
                     fprintf(file_out, "\n");
@@ -227,11 +218,7 @@ int Z_67()
 
                 break;
             }
-            case 'W':
-            {
-                printf("Konczenie pracy programu...\n");
-                break;
-            }
+            case 'W': break;
             default:
             {
                 printf("Wybrano bledna opcje :( , sprobuj jeszcze raz\n\n");
@@ -239,7 +226,8 @@ int Z_67()
             }
             }
         }
-
     }
+
+    printf("Konczenie pracy programu...\n");
     return 1;
 }
