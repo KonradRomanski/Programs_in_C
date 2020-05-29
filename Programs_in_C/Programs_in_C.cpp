@@ -52,6 +52,7 @@ int Z5_13();
 int Z7_16();
 
 int Z_67();
+int Z_67v2();
 
 int main()
 {
@@ -89,7 +90,8 @@ int main()
     //Z5_13();
     //Z7_16();
 
-    Z_67();
+    //Z_67();
+    Z_67v2();
 }
 
 //&0x5F - vig letters

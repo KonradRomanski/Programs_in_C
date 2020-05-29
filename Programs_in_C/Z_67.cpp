@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
-void bin2hex(int *bindata, char *hexval)
+void bin2hex(int* bindata, char* hexval)
 {
     int decval = 0;
     int a = 1;
     char p[] = "0123456789ABCDEF";
+
+    for (int i = 0; i < 2; i++) hexval[i] = '0';
 
     for (int i = 0; i < 8; i++) decval = (decval * 2) + bindata[i];
 
@@ -17,22 +19,22 @@ void bin2hex(int *bindata, char *hexval)
 
 }
 
-void hex2bin(char *hexval, int *bindata)
+void hex2bin(char* hexval, int* bindata)
 {
     int a = 7;
     int b = 0;
+    for (int i = 0; i < 8; i++) bindata[i] = 0;
+
     for (int i = 0; i < 2; i++)
     {
-        if (hexval[i] < '9') b = b * 16 + int(hexval[i] - '0');
+        if (hexval[i] <= '9') b = b * 16 + int(hexval[i] - '0');
         else b = b * 16 + int(hexval[i] - 'A' + 10);
     }
-    //printf("WYNIK: %d\n", b);
 
     while (b != 0)
     {
-        bindata[a] = (b % 2 == 0 ? 0 : 1);
+        bindata[a--] = b % 2;
         b /= 2;
-        a--;
     }
 }
 
@@ -46,8 +48,8 @@ char rchar()
 int Z_67()
 {
     char code[4] = { 'A', 'A', 'A', 'A' };
-    char hexcode[2] = {'0', '0'};
-    int bincode[8] = {0};
+    char hexcode[2] = { '0', '0' };
+    int bincode[8] = { 0 };
     FILE* file_in = NULL;
     FILE* file_out = NULL;
     char data[32];
@@ -81,6 +83,7 @@ int Z_67()
                 if (strcmp(data, result) == 0)
                 {
                     printf("Nazwy pliku wejsciowego i wyjsciowego musza byc rozne, sprobuj jeszcze raz\n\n");
+                    fclose(file_in);
                     opcja = 'A';
                 }
                 else

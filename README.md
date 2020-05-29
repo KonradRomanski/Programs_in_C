@@ -309,8 +309,42 @@ Dla sprawdzenia, czy ciąg binarny spełnia podane warunki zdefiniować funkcję
 </p>
 </details>
 
-### Task counter: 
-:heavy_multiplication_x::two::one: **/** :two::four::heavy_multiplication_x:
+### Final task
+:heavy_check_mark:[Z_67.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z_67.cpp) - first version\
+:heavy_check_mark:[Z_67v2.cpp](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/Z_67v2.cpp) - perfect version
+
+<details><summary>description of the final task</summary>
+<p>
+
+#### Z_67
+Opracować program,  który koduje / dekoduje  pliki zawierające zapis sekwencji nukleotydowej kwasu DNA. W pliku tekstowym `.txt` nukleotydy są reprezentowane	przez dowolną kombinację z powtórzeniami liter `A`, `C`, `G`, `T` zapisaną po 4 litery w 	jednym wierszu np:
+
+| data |
+| ---- |
+| ACGT |
+| TGGA |
+| CGTA |
+| .... |
+
+Kodowanie polega na przypisaniu każdej literze 2 bitów i umieszczeniu ich w jednym bajcie w takiej kolejności, w takiej występowały w pliku tekstowym.
+
+- `A` - `00`
+-	`C` - `01`
+-	`G` - `10`
+-	`T` - `11`
+
+Kolejne bajty zapisywane są w pliku binarnym `.bin`. Czyli podana jako przykład	sekwencja powinna zostać zapisana w pliku binarnym jako (heksadecymalnie):
+
+`1B E8 6C`
+
+Program powinien umożliwiać wybór operacji kodowania / dekodowania, pytać o	nazwy plików wejściowego i wyjściowego.
+Plik przykładowy\ [DNA.txt](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/DNA.txt)
+
+</p>
+</details>
+
+### Task counter:
+:heavy_multiplication_x::two::two: **/** :two::five::heavy_multiplication_x:
 
 ### Legend
 :heavy_check_mark: - Exercise accomplished\
