@@ -337,8 +337,8 @@ Kolejne bajty zapisywane są w pliku binarnym `.bin`. Czyli podana jako przykła
 
 `1B E8 6C`
 
-Program powinien umożliwiać wybór operacji kodowania / dekodowania, pytać o	nazwy plików wejściowego i wyjściowego.
-Plik przykładowy\ [DNA.txt](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/DNA.txt)
+Program powinien umożliwiać wybór operacji kodowania / dekodowania, pytać o	nazwy plików wejściowego i wyjściowego.\
+Plik przykładowy: [DNA.txt](https://github.com/TheSoulsHunter/Programs_in_C/blob/master/Programs_in_C/DNA.txt)
 
 </p>
 </details>
